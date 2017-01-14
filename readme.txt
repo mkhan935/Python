@@ -2,14 +2,15 @@ Welcome,
 
 
 This is My Python Code Repo.
-I am nearing the end of BS degree at CUNY.
 
-Getting ready for interviews and the real-world by going over important concepts in my two favorite languages. 
-Using GitHub to track my progress and to make sure I try to commit everyday.
+Will be Posting code and programs that I have made on my own time, most of them for fun and learning experience.
 
-This way, I hope, I drill into myself important concepts, especially things like Algo and Data Structures.
+Some of the code I post are files that I coded that I want to look back on to help me get ready for interviews.
 
-Please also check my Python repo.
+So you will see some stacks, and hash files, those are just files I'm using to drill these concepts into myself.
+
+
+Please also check my Java repo.
 
 Looking forward to a Great Career as a Software Engineer.
 
