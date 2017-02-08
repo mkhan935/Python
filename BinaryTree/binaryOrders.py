@@ -11,6 +11,12 @@ def printInorder(root):
         print(root.value)
         printInorder(root.right)
 
+def printPostorder(root):
+    if root:
+        printPostorder(root.left)
+        printPostorder(root.right)
+        print(root.value)
+
 
 root = Node(1)
 root.left = Node(2)
@@ -20,3 +26,6 @@ root.left.right = Node(5)
 
 print ("Inorder traversal of the tree is:")
 printInorder(root)
+
+print("PostOrder traversal is: ")
+printPostorder(root)
