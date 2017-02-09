@@ -17,6 +17,12 @@ def printPostorder(root):
         printPostorder(root.right)
         print(root.value)
 
+def printPreorder(root):
+    if root:
+        print(root.value)
+        printPreorder(root.left)
+        printPreorder(root.right)
+
 
 root = Node(1)
 root.left = Node(2)
@@ -29,3 +35,7 @@ printInorder(root)
 
 print("PostOrder traversal is: ")
 printPostorder(root)
+
+
+print("PreOrder traversal is: ")
+printPreorder(root)
