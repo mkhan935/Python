@@ -12,15 +12,15 @@ def binarySearch(arr, left, right, x):
     else:
         return -1
 
-def IterativeBinarySearch(arr, left, right, x):
-    while left <= right:
-        middle = left + (right - left)//2
+def IterativeBinarySearch(arr, left, right, x): #this is my Review of IterativeSearch
+    while left <= right: #while there is a left side of the array thats < = to the right
+        middle = left + (right - left)//2 #create a middle
 
-        if arr[middle] == x:
+        if arr[middle] == x:  #check if middle == x
             return middle
-        elif arr[middle] < x:
+        elif arr[middle] < x:  #if middle is < x than that means x is between middle+1 and right
             left = middle + 1
-        else:
+        else:                    #if middle is > x than that means x is between left and middle
             right = middle + 1
     return -1
 
