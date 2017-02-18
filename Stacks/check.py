@@ -1,9 +1,11 @@
 '''
 So this program is to just implement a simple
 checker using stacks in python
+reviewed
 '''
 
 #first I will make the stack
+
 class Stack:
     def __init__(self):
         self.theStack = []
