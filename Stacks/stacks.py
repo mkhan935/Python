@@ -1,4 +1,5 @@
 #This is just a review on stacks in Python.
+#Gone over Again.
 class Stack:
     def __init__(self):
         self.list=[] #as soon as the stack object is made, it has a list
