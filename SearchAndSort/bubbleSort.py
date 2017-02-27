@@ -1,3 +1,4 @@
+#bubbleSort review 
 def bubbleSort(someArray):
     n = len(someArray)
 
