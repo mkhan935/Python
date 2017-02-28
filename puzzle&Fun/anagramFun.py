@@ -7,6 +7,7 @@ word1- "ABCD"
 word2-"DCBA" these are anagrams
 
 we will assume equal length for both words and lowercase characters
+just having some fun
 '''
 
 def anagramOrNot(word1,word2):
