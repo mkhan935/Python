@@ -1,3 +1,4 @@
+#must go over in a week
 #simple review of insertionSort
 def insertionSort(arrToPassIn):
     for i in range(1, len(arrToPassIn)):
