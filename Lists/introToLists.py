@@ -1,5 +1,5 @@
 ##this is just a simple list
-#main purpose of this is just for me to go over the concepts of Lists in Python
+#main purpose of this is just for me to go over the concepts of Lists in Py
 
 movieSeries=['Harry Potter','Spider-Man','Batman','Hunger Games']
 
