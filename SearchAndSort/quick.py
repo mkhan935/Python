@@ -1,5 +1,5 @@
-# Python program for implementation of Quicksort Sort
-
+# Python program for implementation of Quicksort
+#gotta come back and review this, this weekend
 # This function takes last element as pivot, places
 # the pivot element at its correct position in sorted
 # array, and places all smaller (smaller than pivot)
